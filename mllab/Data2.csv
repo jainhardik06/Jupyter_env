@@ -1,0 +1,15 @@
+Country,Age,Gender,Education,Salary,Purchased,Review
+France,44,Male,UG,72000,No,Poor
+Spain,27,Female,PG,48000,Yes,Good
+Germany,30,Male,UG,54000,No,Average
+Germany,19,,School,61000,No,Poor
+Germany,40,Male,UG,,Yes,Good
+France,35,Female,PG,58000,Yes,Average
+Spain,,Male,UG,52000,No,Poor
+France,48,Female,PG,79000,Yes,Good
+Germany,50,Male,UG,83000,No,Average
+France,37,Female,PG,67000,Yes,Poor
+Spain,38,Male,UG,68000,Yes,Good
+Germany,40,Female,PG,88000,No,Average
+France,44,Male,UG,72000,Yes,Poor
+Spain,18,Female,School,48000,No,Good
