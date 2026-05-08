@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #eaf2ff;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card.wide {
+    width: min(700px, 90vw);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th,
+td {
+    border: 1px solid #d4dbea;
+    padding: 10px;
+}
+
+th {
+    background: #1f3c88;
+    color: #fff;
+}
+
+input[type='text'] {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+input[type='submit'] {
+    padding: 8px 12px;
+    cursor: pointer;
+}

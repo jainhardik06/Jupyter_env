@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faculty Table</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="card wide">
+        <h2>Faculty List</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+            </tr>
+            {% for f in data %}
+            <tr>
+                <td>{{ f.name }}</td>
+                <td>{{ f.subject }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>

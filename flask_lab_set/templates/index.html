@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="card">
+        <h2>Enter Name</h2>
+        <form method="post">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
